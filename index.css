@@ -1,0 +1,138 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFBEB;
+}
+.font-arabic {
+    font-family: 'Cairo', sans-serif;
+}
+.brand-text-color { 
+    color: #6d3611; 
+} /* Violet for branding */
+.brand-bg-color { 
+    background-color: #fdfbd8; 
+}
+.brand-bg-secondary { 
+    background-color: #6d3611; 
+} /* Lighter violet */
+.brand-button-primary { 
+    background-color: #6d3611; 
+    color: white; 
+} /* Darker Violet for buttons */
+.brand-button-primary:hover { 
+    background-color: #6d3611; 
+}
+.brand-button-secondary { 
+    background-color: #EDE9FE; 
+    color: #6d3611; 
+} /* Light violet with dark violet text */
+.brand-button-secondary:hover { 
+    background-color: #DDD6FE; 
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6d3611; /* Lighter violet */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6d3611; /* Darker violet on hover */
+}
+
+/* Navigation styles */
+.active-nav-link {
+    border-bottom: 2px solid #1276c8;
+    color: #6d3611;
+    font-weight: 600;
+}
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+    color: #6d3611;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+}
+.modal.active {
+    display: flex; /* Show when active */
+}
+
+/* Card styling */
+.landmark-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.landmark-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Arabic text alignment */
+[dir="rtl"] {
+    text-align: right;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fdfbd8;
+}
+
+.brand-button-primary {
+    background-color: #0d787f;
+    color: white;
+}
+
+.brand-button-primary:hover {
+    background-color: #0b6b70;
+}
+
+
+
+
+/* Styles for error messages */
+.error-message {
+    color: red; /* Makes the text color red */
+    font-size: 0.85em; /* Slightly smaller text for errors */
+    margin-top: 5px; /* Adds a small space above the error message */
+    margin-bottom: 10px; /* Adds space below the error message */
+    display: block; /* Ensures the error message appears on its own line */
+}
+
+/* Styles for input fields with errors */
+.input-error {
+    border: 1px solid red !important; /* Makes the border of the input field red */
+    box-shadow: 0 0 3px rgba(255, 0, 0, 0.5); /* Adds a subtle red glow around the input */
+}
+
+/* Optional: Basic styling for form elements for better visual consistency */
+/* You might already have these or similar styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Makes inputs take full width of their container */
+    padding: 8px; /* Adds padding inside the inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Default border color */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+label {
+    display: block; /* Makes labels appear on their own line */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Makes labels bold */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
