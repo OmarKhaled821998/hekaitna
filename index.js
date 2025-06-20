@@ -74,7 +74,7 @@ const landmarks = [
         nameAr: 'بيت السحيمي',
         image: 'photos/bayt0.jpeg', // Updated to include 'photos/'
         images: [
-            'photos/bayt1.jpg', // Updated to include 'photos/'
+            'photos/bayt1.JPG', // Updated to include 'photos/'
             'photos/bayt2.jpg', // Updated to include 'photos/'
             'photos/bayt3.jpeg'  // Updated to include 'photos/'
         ],
@@ -140,7 +140,7 @@ const landmarks = [
         nameAr: 'باب النصر',
         image: 'photos/nasr0.jpg', // Already had 'photos/', confirmed
         images: [
-            'photos/nasr1.jpg', // Already had 'photos/', confirmed
+            'photos/nasr1.JPG', // Already had 'photos/', confirmed
             'photos/nasr2.jpg', // Updated to include 'photos/'
             'photos/nasr3.jpg'  // Updated to include 'photos/'
         ],
@@ -307,7 +307,7 @@ const landmarks = [
         image: 'photos/sabil0.jpeg',
         images: [
             'photos/sabil1.jpeg',
-            'photos/sabil2.jpg',
+            'photos/sabil2.JPG',
             'photos/sabil3.jpg'
         ],
         location: 'Al-Muizz Street, Historic Cairo, Egypt',
