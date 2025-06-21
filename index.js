@@ -209,6 +209,8 @@ const landmarks = [
             'photos/hassan1.jpg', // Updated to include 'photos/'
             'photos/hassan2.jpg', // Updated to include 'photos/'
             'photos/hassan3.jpg', // Updated to include 'photos/'
+            'photos/masjid0.jpg',
+            'photos/masjid1.jpg',
         ],
         location: 'Salah al-Din Square, Historic Cairo, Egypt',
         locationAr: 'ميدان صلاح الدين، القاهرة التاريخية، مصر',
